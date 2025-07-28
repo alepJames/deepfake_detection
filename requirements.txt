@@ -9,3 +9,4 @@ tqdm
 numpy
 matplotlib
 streamlit
+torchaudio==2.2.0
