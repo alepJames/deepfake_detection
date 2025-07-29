@@ -1,5 +1,4 @@
 facenet-pytorch
-mediapipe==0.10.14
 opencv-python
 torch==2.2.0+cpu
 torchvision==0.17.0+cpu
@@ -9,4 +8,4 @@ tqdm
 numpy
 matplotlib
 streamlit
-python-3.10.13
+mediapipe==0.10.14
