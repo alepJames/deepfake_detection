@@ -1,8 +1,8 @@
 facenet-pytorch
-mediapipe
+mediapipe==0.10.14
 opencv-python
-torch
-torchvision
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
 scikit-learn
 pillow
 tqdm
