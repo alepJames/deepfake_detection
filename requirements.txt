@@ -1,12 +1,13 @@
 facenet-pytorch
-mediapipe
+mediapipe==0.10.14
 opencv-python
 torch==2.2.0
-torchvision==0.17.0
+torchvision==0.17.0+cpu
 scikit-learn
 pillow
 tqdm
 numpy
 matplotlib
 streamlit
-torchaudio==2.2.0
+torchaudio==2.2.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
