@@ -11,6 +11,8 @@ import shutil
 import io
 import contextlib
 
+port = os.environ.get("PORT", 8501)
+
 # Page setup
 st.set_page_config(
     page_title="Deepfake CyberDetector",
