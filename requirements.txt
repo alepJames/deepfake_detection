@@ -1,11 +1,11 @@
 facenet-pytorch
-opencv-python-headless==4.11.0.86
-torch==2.2.0+cpu
-torchvision==0.17.0+cpu
+opencv-python-headless
+torch
+torchvision
 scikit-learn
 pillow
 tqdm
 numpy
 matplotlib
 streamlit
-mediapipe==0.10.14
+mediapipe
