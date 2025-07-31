@@ -6,7 +6,6 @@ from predict import predict
 from featuremap_vis import visualize_feature_maps
 from landmark_symmetry import analyze as landmark_analyze
 from fft_analyze import fft_spectrum
-from captum_ig import run_integrated_gradients
 import shutil
 import io
 import contextlib
