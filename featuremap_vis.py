@@ -26,8 +26,8 @@ def hook_layer(name):
 model.cnn.conv1.register_forward_hook(hook_layer("conv1"))
 model.cnn.layer1.register_forward_hook(hook_layer("layer1"))
 model.cnn.layer2.register_forward_hook(hook_layer("layer2"))
-model.cnn.layer2.register_forward_hook(hook_layer("layer3"))
-model.cnn.layer2.register_forward_hook(hook_layer("layer4"))
+model.cnn.layer3.register_forward_hook(hook_layer("layer3"))
+model.cnn.layer4.register_forward_hook(hook_layer("layer4"))
 
 # Transform
 transform = transforms.Compose([
